@@ -4,7 +4,7 @@ https://codeforces.com/gym/103438
 
 ## G. Max Pair Matching
 
-题意：给出 $2n$ 个 $pair(a_i,b_i)$，让他们两两配对，使得所有匹配的 $max(|a_i−a_j|,|a_i−b_j|,|b_i−a_j|,|b_i−b_j|) $ 和最大。
+题意：给出 $2n$ 个 $pair(a_i,b_i)$，让他们两两配对，使得所有匹配的 $max(|a_i−a_j|,|a_i−b_j|,|b_i−a_j|,|b_i−b_j|)$ 和最大。
 
 首先可以把每个pair看作数轴上的一段区间，那么一组匹配的值就是这两个区间上最远的两个点的距离。
 
